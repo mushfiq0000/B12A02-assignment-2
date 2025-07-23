@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* color style */
+.menu-color1 {
+    color: rgba(137, 135, 161, 1);
+}
+.menu-color2 {
+    color:  rgba(37, 36, 50, 1);
+}
+.black-color{
+    color: rgba(0, 0, 0, 1);
+}
+.orange-color{
+    color: rgba(233, 90, 8, 1);
+}
+.light-black-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* header style */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px 50px 200px;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    
+}
+
+nav ul li{
+    list-style: none;
+    margin-right: 48px;
+    
+}
+nav li a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.logo-image{
+    width: 135px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+/* banner style */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 150px 0 150px;
+    padding: 250px 90px 0 60px;
+}
+.banner-content{
+    width: 550px;
+    height: 100px;
+    
+}
+
+.banner-titel{
+    font-size: 4.0625rem;
+    font-weight: bold;
+    margin-bottom: 13px;
+    margin-top: 105px;
+
+}
+.banner-discription{
+    font-size: 1.375rem;
+    text-align: justify;
+    margin-top: 0px;
+}
+.banner-image{
+    width: 590px;
+    height: 400px;
+    
+}
