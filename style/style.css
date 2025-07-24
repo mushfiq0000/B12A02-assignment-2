@@ -209,8 +209,6 @@ nav li a {
 
 
 }
-
-
 .plant-lover-section {
     width: 1140px;
     height: 597px;
@@ -224,6 +222,13 @@ nav li a {
     padding: 24px;
     font-size: 22px;
 
+}
+.trusted-badge{
+    width:  286px;
+    height: 286px;
+    display: block;
+    margin-left: -250px;
+    margin-top: -750px;
 }
 
 /* join section */
@@ -446,6 +451,9 @@ footer ul li{
         flex-direction: column;
         height: 648px;
         width: 361px;
+    }
+    .trusted-badge{
+        display: none;
     }
 
     /* join section responsive */
