@@ -33,18 +33,22 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+/* share style */
+.display-flex{
+    display: flex;
+}
+
 
 /* header style */
 
-nav{
-    display: flex;
+/* navbar */
+.navbar{
     align-items: center;
     justify-content: space-between;
-    margin: 50px 200px 50px 200px;
+    margin: 50px 200px;
 }
 
 nav ul{
-    display: flex;
     align-items: center;
     
 }
@@ -56,44 +60,133 @@ nav ul li{
 }
 nav li a{
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 16px;
 }
 .logo-image{
     width: 135px;
+    height: 82px;
 }
 .cart{
-    display: flex;
     align-items: center;
     gap: 5px;
 }
 
-/* banner style */
+/* banner */
 .banner{
-    display: flex;
+    
     justify-content: space-between;
-    margin: 50px 150px 0 150px;
-    padding: 250px 90px 0 60px;
+    margin: 210px 200px;
+    
 }
 .banner-content{
-    width: 550px;
-    height: 100px;
+    max-width: 570px;
+    
     
 }
 
 .banner-titel{
-    font-size: 4.0625rem;
+    font-size: 65px;
     font-weight: bold;
     margin-bottom: 13px;
-    margin-top: 105px;
+
 
 }
 .banner-discription{
-    font-size: 1.375rem;
-    text-align: justify;
+    font-size: 22px;
+    text-align: left;
     margin-top: 0px;
 }
 .banner-image{
     width: 590px;
-    height: 400px;
     
+}
+
+/* main style  */
+
+/* plant section  */
+
+.plant-section{
+    text-align: center;
+    /* padding: 130px 150px; */
+}
+
+.plant-titel {
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.plant-description {
+    
+    font-size: 22px;
+    width: 888px;
+    height: 54px;
+    margin: auto;
+    
+}
+
+
+
+
+
+
+@media screen and (max-width:576px) {
+    /* nav section responsive */
+
+     .navbar{
+        margin-left: 0;
+        margin: 0;
+        padding: 0;
+        gap: 45px;
+    }
+     nav ul li{
+        margin-right: 0;
+    
+    }
+    .logo-image{
+        width: 63px;
+        height: 38px;
+    }
+
+     .item{
+        display: none;
+    }
+    /* banner section responsive */
+    .banner{
+        flex-direction: column-reverse;
+        margin: 0;
+        text-align:left ;
+    }
+    .banner-image{
+        width: 400px;
+        height: 250px;
+    }
+    .banner-titel{
+        font-size:24px ;
+    }
+    .banner-discription{
+        font-size: 14px;
+    }
+    .banner-content{
+        width: 390px;
+        height: 100px;
+    }
+    /* plant section responsive */
+
+    .plant-section{
+        margin-top: 100px;
+    }
+
+    .plant-titel{
+        font-size: 24px;
+    }
+
+    .plant-description{
+        font-size: 14px;
+        width: 336px;
+        height: 68px;
+    }
+
+
+
 }
