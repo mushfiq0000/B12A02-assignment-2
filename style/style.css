@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .noto-serif-font {
     font-family: "Noto Serif", serif;
@@ -47,6 +52,12 @@
     color: rgba(233, 90, 8, 1);
 }
 
+.titel {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
 
 /* header style */
 
@@ -54,7 +65,7 @@
 .navbar {
     align-items: center;
     justify-content: space-between;
-    margin: 50px 150px;
+    margin: 50px 370px;
 }
 
 nav ul {
@@ -64,7 +75,7 @@ nav ul {
 
 nav ul li {
     list-style: none;
-    margin-right: 48px;
+    margin-left: 48px;
 
 }
 
@@ -87,7 +98,7 @@ nav li a {
 .banner {
 
     justify-content: space-between;
-    margin: 210px 150px;
+    margin: 210px 370px;
 
 }
 
@@ -105,7 +116,7 @@ nav li a {
 
 }
 
-.banner-discription {
+.banner-description {
     font-size: 22px;
     text-align: left;
     margin-top: 0px;
@@ -122,7 +133,7 @@ nav li a {
 
 .plant-card-section {
     max-width: 1170px;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
 
 .plant-section {
@@ -131,11 +142,7 @@ nav li a {
     /* padding: 130px 150px; */
 }
 
-.plant-titel {
-    font-size: 50px;
-    font-weight: bold;
 
-}
 
 .plant-description {
 
@@ -188,22 +195,103 @@ nav li a {
     color: rgba(255, 255, 255, 1);
 }
 
+/* plants lover section */
+
+.plant-lover-titel {
+    margin-bottom: 0;
+}
+
+.plant-lover-list {
+    padding: 20px 0;
+}
+
+.plant-lover-container {
+    padding-top: 50px;
 
 
+}
+
+
+.plant-lover-section {
+    width: 1140px;
+    height: 597px;
+    margin: 210px auto;
+    gap: 60px;
+    justify-content: center;
+
+}
+
+.plant-lover-description {
+    padding: 24px;
+    font-size: 22px;
+
+}
+
+/* join section */
+.join-container {
+    background-image: url('../image/news-letter-bg.png');
+    background-repeat: none;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+    gap: 23px;
+
+}
+
+.join-input-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.join-titel {
+    color: rgba(255, 255, 255, 1);
+}
+
+.join-button {
+    background-color: rgba(233, 90, 8, 1);
+    border: none;
+    padding: 17px 50px;
+    color: rgba(255, 255, 255, 1);
+
+
+
+
+}
+
+.join-input {
+
+    height: 48px;
+    background-color: white;
+    display: block;
+    width: 644px;
+    padding: 10px 20px;
+    border: none;
+}
 
 
 @media screen and (max-width:576px) {
+
+    .titel {
+        font-size: 24px;
+    }
+
     /* nav section responsive */
 
     .navbar {
-        margin-left: 0;
         margin: 0;
-        padding: 0;
-        gap: 45px;
     }
 
-    nav ul li {
-        margin-right: 0;
+    .cart {
+        width: 113px;
+        height: 24px;
 
     }
 
@@ -224,7 +312,7 @@ nav li a {
     }
 
     .banner-image {
-        width: 400px;
+        width: 100%;
         height: 250px;
     }
 
@@ -232,27 +320,23 @@ nav li a {
         font-size: 24px;
     }
 
-    .banner-discription {
+    .banner-description {
         font-size: 14px;
     }
 
     .banner-content {
         width: 390px;
         height: 100px;
+        padding: 20px;
     }
 
     /* plant section responsive */
 
     .plant-section {
         margin-top: 90px;
-        /* text-align: center; */
-
 
     }
 
-    .plant-titel {
-        font-size: 24px;
-    }
 
     .plant-description {
         font-size: 14px;
@@ -265,7 +349,8 @@ nav li a {
         grid-template-columns: repeat(2, 1fr);
 
     }
-    .card{
+
+    .card {
         width: 180px;
         height: 340.5px;
         margin: 20px auto;
@@ -282,14 +367,81 @@ nav li a {
     }
 
     .card-titel1 {
-        font-size: 16px;   
+        font-size: 16px;
     }
+
     .card-titel2 {
-        font-size: 16px;   
+        font-size: 16px;
     }
 
     .card-button {
         padding: 10px 42px;
+
+    }
+
+    .vanish-card {
+        display: none;
+    }
+
+    /* plants lover responsive */
+
+    .plant-lover {
+        margin-bottom: 0;
+    }
+
+    .plant-lover-titel {
+        padding-left: 5px;
+        padding-top: o;
+    }
+
+    .plant-lover-container {
+        padding-top: 0;
+
+    }
+
+    .plant-lover-description {
+        padding-left: 27px;
+        padding-top: 0;
+
+    }
+
+    .plant-lover-section {
+        flex-direction: column;
+        height: 648px;
+        width: 361px;
+    }
+
+    /* join section responsive */
+
+    .join-container {
+        height: auto;
+        padding: 70px 0;
+    }
+
+    .join-input-form {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+
+    .join-titel {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .join-input {
+        height: 50px;
+        width: 250px;
+        font-size: 14px;
+        padding: 3px 40px;
+    }
+
+    .join-button {
+        width: 20px 20px;
+        padding: 10px 20px;
+        height: 50px;
+        font-size: 14px;
 
     }
 
