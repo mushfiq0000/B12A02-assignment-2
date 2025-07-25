@@ -1,513 +1,584 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap");
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 .noto-serif-font {
-    font-family: "Noto Serif", serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100;
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
-
 .inter-font {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 /* share style */
+
 .display-flex {
-    display: flex;
+  display: flex;
 }
 
 /* color style */
 
 .menu-color1 {
-    color: rgba(137, 135, 161, 1);
+  color: rgba(137, 135, 161, 1);
 }
 
 .menu-color2 {
-    color: rgba(37, 36, 50, 1);
+  color: rgba(37, 36, 50, 1);
 }
 
 .darck-black {
-    color: rgba(17, 17, 17, 1);
+  color: rgba(17, 17, 17, 1);
 }
 
 .black-color {
-    color: rgba(0, 0, 0, 1);
+  color: rgba(0, 0, 0, 1);
 }
 
 .light-black-color {
-    color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 }
 
 .orange-color {
-    color: rgba(233, 90, 8, 1);
+  color: rgba(233, 90, 8, 1);
 }
 
 .titel {
-    font-size: 50px;
-    font-weight: bold;
-
+  font-size: 50px;
+  font-weight: bold;
 }
-
 
 /* header style */
 
 /* navbar */
+
 .navbar {
-    align-items: center;
-    justify-content: space-between;
-    margin: 50px 370px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 370px;
 }
 
 nav ul {
-    align-items: center;
-
+  align-items: center;
 }
 
 nav ul li {
-    list-style: none;
-    margin-left: 48px;
-
+  list-style: none;
+  margin-left: 48px;
 }
 
 nav li a {
-    text-decoration: none;
-    font-size: 16px;
+  text-decoration: none;
+  font-size: 16px;
 }
 
 .logo-image {
-    width: 135px;
-    height: 82px;
+  width: 135px;
+  height: 82px;
 }
 
 .cart {
-    align-items: center;
-    gap: 5px;
+  align-items: center;
+  gap: 5px;
 }
 
 /* banner */
+
 .banner {
-
-    justify-content: space-between;
-    margin: 210px 370px;
-
+  justify-content: space-between;
+  margin: 210px 370px;
 }
 
 .banner-content {
-    max-width: 570px;
-
-
+  max-width: 570px;
 }
 
 .banner-titel {
-    font-size: 65px;
-    font-weight: bold;
-    margin-bottom: 13px;
-
-
+  font-size: 65px;
+  font-weight: bold;
+  margin-bottom: 13px;
 }
 
 .banner-description {
-    font-size: 22px;
-    text-align: left;
-    margin-top: 0px;
+  font-size: 22px;
+  text-align: left;
+  margin-top: 0px;
 }
 
 .banner-image {
-    width: 590px;
-
+  width: 590px;
 }
 
 /* main style  */
 
-/* plant section  */
+/* plant section style */
 
 .plant-card-section {
-    max-width: 1170px;
-    margin: 0 auto;
+  max-width: 1170px;
+  margin: 0 auto;
 }
 
 .plant-section {
-    text-align: center;
-    margin-bottom: 20px;
-    /* padding: 130px 150px; */
+  text-align: center;
+  margin-bottom: 20px;
 }
-
 
 .plant-description {
-
-    font-size: 22px;
-    width: 888px;
-    height: 54px;
-    margin: auto;
-
+  font-size: 22px;
+  width: 888px;
+  height: 54px;
+  margin: auto;
 }
 
-/* card section */
+/* card section style */
 
 .card {
-    width: 270px;
-    height: 484.94px;
-    text-align: center;
-    box-shadow: rgba(0, 0, 0, 0.25);
-    font-size: 22px;
-    margin-bottom: 50px;
+  width: 270px;
+  height: 484.94px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.25);
+  font-size: 22px;
+  margin-bottom: 50px;
 }
 
 .card-container {
-    text-align: center;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .card-image {
-    width: 270px;
-    height: 322.94px;
+  width: 270px;
+  height: 322.94px;
 }
 
 .card-titel1 {
-    font-size: 22px;
-    font-weight: 500;
-    text-shadow: rgba(0, 0, 0, 0.25);
+  font-size: 22px;
+  font-weight: 500;
+  text-shadow: rgba(0, 0, 0, 0.25);
 }
 
 .card-titel2 {
-    font-size: 22px;
-    font-weight: 700;
-    text-shadow: rgba(0, 0, 0, 0.25);
+  font-size: 22px;
+  font-weight: 700;
+  text-shadow: rgba(0, 0, 0, 0.25);
 }
 
 .card-button {
-    background-color: rgba(233, 90, 8, 1);
-    padding: 19px 90px;
-    border: none;
-    color: rgba(255, 255, 255, 1);
+  background-color: rgba(233, 90, 8, 1);
+  padding: 19px 90px;
+  border: none;
+  color: rgba(255, 255, 255, 1);
 }
 
-/* plants lover section */
+/* plants lover section style */
 
 .plant-lover-titel {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .plant-lover-list {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 .plant-lover-container {
-    padding-top: 50px;
-
-
+  padding-top: 50px;
 }
 .plant-lover-section {
-    width: 1140px;
-    height: 597px;
-    margin: 210px auto;
-    gap: 60px;
-    justify-content: center;
-
+  width: 1140px;
+  height: 597px;
+  margin: 210px auto;
+  gap: 60px;
+  justify-content: center;
 }
 
 .plant-lover-description {
-    padding: 24px;
-    font-size: 22px;
-
+  padding: 24px;
+  font-size: 22px;
 }
-.trusted-badge{
-    width:  286px;
-    height: 286px;
-    display: block;
-    margin-left: -250px;
-    margin-top: -750px;
+
+/* trusted badge style */
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.trusted-badge {
+  width: 286px;
+  height: 286px;
+  display: block;
+  margin-left: -250px;
+  margin-top: -750px;
+  animation: spin 0.5s linear infinite;
+}
+
+/* latest deals srction style */
+
+.deal-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 1140px;
+  margin: 120px auto;
+  gap: 20px;
+}
+.img-deal {
+  filter: brightness(50%);
+}
+.deal-image1 {
+  border-radius: 20%;
+  position: relative;
+}
+.deal-image2 {
+  border-radius: 20%;
+  grid-column: span 2;
+  grid-row: span 2;
+  position: relative;
+}
+.deal-image3 {
+  border-radius: 20%;
+  position: relative;
+}
+
+.img-deal {
+  border-radius: 25px;
+}
+
+.deal-content-1st-img {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 80px;
+  right: 65px;
+}
+.deal-content-1st-img a {
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.deal-content-2nd-img {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  font-size: 40px;
+  font-weight: bold;
+  top: 160px;
+  right: 150px;
+}
+
+.deal-content-2nd-img a {
+  color: #ffffff;
+  font-size: 28px;
+}
+
+.deal-content-3rd-img {
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  font-size: 20px;
+  font-weight: bold;
+  top: 70px;
+  right: 80px;
+}
+.deal-content-3rd-img a {
+  color: #ffffff;
+  font-size: 16px;
 }
 
 /* join section */
-.join-container {
-    background-image: url('../image/news-letter-bg.png');
-    background-repeat: none;
-    background-size: cover;
-    width: 100%;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 50px;
-    gap: 23px;
 
+.join-container {
+  background-image: url("../image/news-letter-bg.png");
+  background-repeat: none;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+  gap: 23px;
 }
 
 .join-input-form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .join-titel {
-    color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 1);
 }
 
 .join-button {
-    background-color: rgba(233, 90, 8, 1);
-    border: none;
-    padding: 17px 50px;
-    color: rgba(255, 255, 255, 1);
-
+  background-color: rgba(233, 90, 8, 1);
+  border: none;
+  padding: 17px 50px;
+  color: rgba(255, 255, 255, 1);
 }
 
 .join-input {
-
-    height: 48px;
-    background-color: white;
-    display: block;
-    width: 644px;
-    padding: 10px 20px;
-    border: none;
+  height: 48px;
+  background-color: white;
+  display: block;
+  width: 644px;
+  padding: 10px 20px;
+  border: none;
 }
 
 /* footer style */
-footer{
-    justify-content: center;
-    align-items: center; 
+
+footer {
+  justify-content: center;
+  align-items: center;
 }
 
-.footer-container{
-    width: 1120px;
-    height: 248px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-content: space-around;
-    margin: 50px auto;
-    gap: 110px;
-    
-    
+.footer-container {
+  width: 1120px;
+  height: 248px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+  margin: 50px auto;
+  gap: 110px;
 }
-.footer-logo-description{
-    font-size: 22px;
-    width: 310px;
-    height: 179px;
+.footer-logo-description {
+  font-size: 22px;
+  width: 310px;
+  height: 179px;
 }
-.footer-features a{
-    text-decoration: none;
+.footer-features a {
+  text-decoration: none;
+  font-size: 16px;
+  color: rgba(107, 114, 128, 1);
+}
+footer ul li {
+  list-style: none;
+  margin-bottom: 32px;
+}
+.footer-icon {
+  width: 36px;
+  height: 36px;
+  gap: 24px;
+  align-items: center;
+}
+
+@media screen and (max-width: 576px) {
+  /* share item */
+  .titel {
+    font-size: 24px;
+  }
+
+  /* body responsive */
+
+  /* nav section responsive */
+
+  .navbar {
+    margin: 0;
+    padding: 20px;
+  }
+
+  .cart {
+    width: 113px;
+    height: 24px;
+  }
+
+  .logo-image {
+    width: 63px;
+    height: 38px;
+  }
+
+  .item {
+    display: none;
+  }
+
+  /* banner section responsive */
+
+  .banner {
+    flex-direction: column-reverse;
+    margin: 0;
+    text-align: left;
+  }
+
+  .banner-image {
+    width: 100%;
+    height: 250px;
+  }
+
+  .banner-titel {
+    font-size: 24px;
+  }
+
+  .banner-description {
+    font-size: 14px;
+  }
+
+  .banner-content {
+    width: 390px;
+    height: 100px;
+    padding: 20px;
+  }
+
+  /* plant section responsive */
+
+  .plant-section {
+    margin-top: 90px;
+  }
+
+  .plant-description {
+    font-size: 14px;
+    width: 336px;
+    height: 68px;
+  }
+
+  /* card section responsive */
+
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .card {
+    width: 180px;
+    height: 340.5px;
+    margin: 20px auto;
+  }
+
+  .card-image {
+    width: 170px;
+    height: 340.5px;
+  }
+
+  .card-image {
+    width: 170px;
+    height: 196.5px;
+  }
+
+  .card-titel1 {
     font-size: 16px;
-    color: rgba(107, 114, 128, 1);
-}
-footer ul li{
-    list-style: none;
-    margin-bottom: 32px;
-}
-.footer-icon{
-    width: 36px;
-    height: 36px;
-    gap: 24px;
-    align-items: center;
-}
+  }
 
+  .card-titel2 {
+    font-size: 16px;
+  }
 
-@media screen and (max-width:576px) {
+  .card-button {
+    padding: 10px 42px;
+  }
 
-    /* share item */
-    .titel {
-        font-size: 24px;
-    }
+  .vanish-card {
+    display: none;
+  }
 
-    /* body responsive */
-    /* nav section responsive */
+  /* plants lover responsive */
 
-    .navbar {
-        margin: 0;
-        padding: 20px;
-    }
+  .plant-lover {
+    margin-bottom: 0;
+  }
 
-    .cart {
-        width: 113px;
-        height: 24px;
+  .plant-lover-titel {
+    padding-left: 5px;
+    padding-top: o;
+  }
 
-    }
+  .plant-lover-container {
+    padding-top: 0;
+  }
 
-    .logo-image {
-        width: 63px;
-        height: 38px;
-    }
+  .plant-lover-description {
+    padding-left: 27px;
+    padding-top: 0;
+  }
 
-    .item {
-        display: none;
-    }
+  .plant-lover-section {
+    flex-direction: column;
+    height: 648px;
+    width: 361px;
+  }
+  .trusted-badge {
+    display: none;
+  }
 
-    /* banner section responsive */
-    .banner {
-        flex-direction: column-reverse;
-        margin: 0;
-        text-align: left;
-    }
+  /* latest deals srction style */
 
-    .banner-image {
-        width: 100%;
-        height: 250px;
-    }
+  .deal-container {
+    grid-template-columns: 1fr;
+    width: 361px;
+  }
 
-    .banner-titel {
-        font-size: 24px;
-    }
+  .deal-image2 img {
+    width: 361px;
+  }
+  .deal-content-2nd-img {
+    font-size: 20px;
+    top: 90px;
+    right: 95px;
+  }
+  .deal-content-2nd-img a {
+    font-size: 16px;
+  }
 
-    .banner-description {
-        font-size: 14px;
-    }
+  /* join section responsive */
 
-    .banner-content {
-        width: 390px;
-        height: 100px;
-        padding: 20px;
-    }
+  .join-container {
+    height: auto;
+    padding: 70px 0;
+  }
 
-    /* plant section responsive */
+  .join-input-form {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-    .plant-section {
-        margin-top: 90px;
+  .join-titel {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
 
-    }
+  .join-input {
+    height: 50px;
+    width: 250px;
+    font-size: 14px;
+    padding: 3px 40px;
+  }
 
+  .join-button {
+    width: 20px 20px;
+    padding: 10px 20px;
+    height: 50px;
+    font-size: 14px;
+  }
 
-    .plant-description {
-        font-size: 14px;
-        width: 336px;
-        height: 68px;
-    }
+  /* footer responsive */
 
-    /* card section responsive */
-    .card-container {
-        grid-template-columns: repeat(2, 1fr);
+  .footer-container {
+    width: 359px;
+    height: 765px;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .footer-logo-description {
+    width: 359px;
+    height: 173px;
+  }
 
-    }
-
-    .card {
-        width: 180px;
-        height: 340.5px;
-        margin: 20px auto;
-    }
-
-    .card-image {
-        width: 170px;
-        height: 340.5px;
-    }
-
-    .card-image {
-        width: 170px;
-        height: 196.5px;
-    }
-
-    .card-titel1 {
-        font-size: 16px;
-    }
-
-    .card-titel2 {
-        font-size: 16px;
-    }
-
-    .card-button {
-        padding: 10px 42px;
-
-    }
-
-    .vanish-card {
-        display: none;
-    }
-
-    /* plants lover responsive */
-
-    .plant-lover {
-        margin-bottom: 0;
-    }
-
-    .plant-lover-titel {
-        padding-left: 5px;
-        padding-top: o;
-    }
-
-    .plant-lover-container {
-        padding-top: 0;
-
-    }
-
-    .plant-lover-description {
-        padding-left: 27px;
-        padding-top: 0;
-
-    }
-
-    .plant-lover-section {
-        flex-direction: column;
-        height: 648px;
-        width: 361px;
-    }
-    .trusted-badge{
-        display: none;
-    }
-
-    /* join section responsive */
-
-    .join-container {
-        height: auto;
-        padding: 70px 0;
-    }
-
-    .join-input-form {
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-
-    }
-
-    .join-titel {
-        font-size: 24px;
-        margin-bottom: 20px;
-    }
-
-    .join-input {
-        height: 50px;
-        width: 250px;
-        font-size: 14px;
-        padding: 3px 40px;
-    }
-
-    .join-button {
-        width: 20px 20px;
-        padding: 10px 20px;
-        height: 50px;
-        font-size: 14px;
-
-    }
-    /* footer responsive */
-
-    .footer-container{
-        width: 359px;
-        height: 765px;
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    .footer-logo-description{
-        width: 359px;
-        height: 173px;
-    }
-
-    .footer-logo{
-        width: 180px;
-        height: 109px;
-    }
-
-
-
-
+  .footer-logo {
+    width: 180px;
+    height: 109px;
+  }
 }
