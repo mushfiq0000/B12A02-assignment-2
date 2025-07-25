@@ -130,6 +130,10 @@ nav li a {
   text-align: center;
   margin-bottom: 20px;
 }
+.plant-section,
+.plant-description {
+  padding: 30px 0;
+}
 
 .plant-description {
   font-size: 22px;
@@ -146,7 +150,7 @@ nav li a {
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.25);
   font-size: 22px;
-  margin-bottom: 50px;
+  /* margin-bottom: 50px; */
 }
 
 .card-container {
@@ -230,7 +234,7 @@ nav li a {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   width: 1140px;
-  margin: 120px auto;
+  margin: 90px auto;
   gap: 20px;
 }
 .img-deal {
@@ -455,7 +459,7 @@ footer ul li {
   .card {
     width: 180px;
     height: 340.5px;
-    margin: 20px auto;
+    margin: 0px auto;
   }
 
   .card-image {
@@ -474,6 +478,7 @@ footer ul li {
 
   .card-titel2 {
     font-size: 16px;
+    padding: 10px 0;
   }
 
   .card-button {
